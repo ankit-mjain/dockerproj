@@ -1,5 +1,7 @@
 setup:
 	python3 -m venv ~/.dockerproj
+	sudo wget -0 /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v2.6.0/hadolint-Linux-x86_64
+	sudo chmod +x /bin/hadolint
 	
 install:
 	pip install --upgrade pip && \
